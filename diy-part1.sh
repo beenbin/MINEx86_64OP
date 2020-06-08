@@ -10,12 +10,7 @@
 
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
-git clone https://github.com/beenbin/OpenClash.git package/Openclash
-git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone https://github.com/jefferymvp/luci-app-koolproxyR.git package/luci-app-koolproxyR
-#冲突编译失败git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
