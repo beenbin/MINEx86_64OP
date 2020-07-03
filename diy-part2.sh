@@ -11,7 +11,7 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.9/g' package/base-files/files/bin/config_generate
 #
-#git clone https://github.com/beenbin/passwall652.git package/passwall
+git clone https://github.com/beenbin/passwall652.git package/passwall
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/beenbin/OpenClash.git package/Openclash
 git clone -b master https://github.com/vernesong/OpenClash.git package/Openclash
